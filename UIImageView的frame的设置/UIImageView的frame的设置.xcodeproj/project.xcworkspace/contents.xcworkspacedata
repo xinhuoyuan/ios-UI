@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+      location = "self:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
    </FileRef>
 </Workspace>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UIImageView的基本使用.xcscheme</key>
+		<key>UIImageView的frame的设置.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>181049C21D64AB66009226FA</key>
+		<key>18104A011D64AFCD009226FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>181049DB1D64AB66009226FA</key>
+		<key>18104A1A1D64AFCD009226FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>181049E61D64AB66009226FA</key>
+		<key>18104A251D64AFCD009226FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

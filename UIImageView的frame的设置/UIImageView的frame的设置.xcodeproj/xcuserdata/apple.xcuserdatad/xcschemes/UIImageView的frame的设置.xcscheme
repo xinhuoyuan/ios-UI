@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "181049C21D64AB66009226FA"
-               BuildableName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.app"
-               BlueprintName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;"
-               ReferencedContainer = "container:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "18104A011D64AFCD009226FA"
+               BuildableName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.app"
+               BlueprintName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;"
+               ReferencedContainer = "container:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "181049DB1D64AB66009226FA"
-               BuildableName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;Tests.xctest"
-               BlueprintName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;Tests"
-               ReferencedContainer = "container:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "18104A1A1D64AFCD009226FA"
+               BuildableName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;Tests.xctest"
+               BlueprintName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;Tests"
+               ReferencedContainer = "container:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "181049E61D64AB66009226FA"
-               BuildableName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;UITests.xctest"
-               BlueprintName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;UITests"
-               ReferencedContainer = "container:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "18104A251D64AFCD009226FA"
+               BuildableName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;UITests.xctest"
+               BlueprintName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;UITests"
+               ReferencedContainer = "container:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "181049C21D64AB66009226FA"
-            BuildableName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.app"
-            BlueprintName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "18104A011D64AFCD009226FA"
+            BuildableName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.app"
+            BlueprintName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;"
+            ReferencedContainer = "container:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "181049C21D64AB66009226FA"
-            BuildableName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.app"
-            BlueprintName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "18104A011D64AFCD009226FA"
+            BuildableName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.app"
+            BlueprintName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;"
+            ReferencedContainer = "container:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "181049C21D64AB66009226FA"
-            BuildableName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.app"
-            BlueprintName = "UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:UIImageView&#x7684;&#x57fa;&#x672c;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "18104A011D64AFCD009226FA"
+            BuildableName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.app"
+            BlueprintName = "UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;"
+            ReferencedContainer = "container:UIImageView&#x7684;frame&#x7684;&#x8bbe;&#x7f6e;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

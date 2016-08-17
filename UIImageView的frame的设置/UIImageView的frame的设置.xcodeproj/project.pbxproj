@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18104A071D64AFCD009226FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A061D64AFCD009226FA /* main.m */; };
+		18104A0A1D64AFCD009226FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A091D64AFCD009226FA /* AppDelegate.m */; };
+		18104A0D1D64AFCD009226FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A0C1D64AFCD009226FA /* ViewController.m */; };
+		18104A101D64AFCD009226FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18104A0E1D64AFCD009226FA /* Main.storyboard */; };
+		18104A121D64AFCD009226FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18104A111D64AFCD009226FA /* Assets.xcassets */; };
+		18104A151D64AFCD009226FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18104A131D64AFCD009226FA /* LaunchScreen.storyboard */; };
+		18104A201D64AFCD009226FA /* UIImageView_frame___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A1F1D64AFCD009226FA /* UIImageView_frame___Tests.m */; };
+		18104A2B1D64AFCD009226FA /* UIImageView_frame___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A2A1D64AFCD009226FA /* UIImageView_frame___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18104A1C1D64AFCD009226FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181049FA1D64AFCD009226FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18104A011D64AFCD009226FA;
+			remoteInfo = "UIImageView的frame的设置";
+		};
+		18104A271D64AFCD009226FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181049FA1D64AFCD009226FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18104A011D64AFCD009226FA;
+			remoteInfo = "UIImageView的frame的设置";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18104A021D64AFCD009226FA /* UIImageView的frame的设置.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImageView的frame的设置.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18104A061D64AFCD009226FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18104A081D64AFCD009226FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18104A091D64AFCD009226FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18104A0B1D64AFCD009226FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18104A0C1D64AFCD009226FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18104A0F1D64AFCD009226FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18104A111D64AFCD009226FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18104A141D64AFCD009226FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18104A161D64AFCD009226FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18104A1B1D64AFCD009226FA /* UIImageView的frame的设置Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView的frame的设置Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18104A1F1D64AFCD009226FA /* UIImageView_frame___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView_frame___Tests.m"; sourceTree = "<group>"; };
+		18104A211D64AFCD009226FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18104A261D64AFCD009226FA /* UIImageView的frame的设置UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView的frame的设置UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18104A2A1D64AFCD009226FA /* UIImageView_frame___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView_frame___UITests.m"; sourceTree = "<group>"; };
+		18104A2C1D64AFCE009226FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181049FF1D64AFCD009226FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A181D64AFCD009226FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A231D64AFCD009226FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181049F91D64AFCD009226FA = {
+			isa = PBXGroup;
+			children = (
+				18104A041D64AFCD009226FA /* UIImageView的frame的设置 */,
+				18104A1E1D64AFCD009226FA /* UIImageView的frame的设置Tests */,
+				18104A291D64AFCD009226FA /* UIImageView的frame的设置UITests */,
+				18104A031D64AFCD009226FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18104A031D64AFCD009226FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18104A021D64AFCD009226FA /* UIImageView的frame的设置.app */,
+				18104A1B1D64AFCD009226FA /* UIImageView的frame的设置Tests.xctest */,
+				18104A261D64AFCD009226FA /* UIImageView的frame的设置UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18104A041D64AFCD009226FA /* UIImageView的frame的设置 */ = {
+			isa = PBXGroup;
+			children = (
+				18104A081D64AFCD009226FA /* AppDelegate.h */,
+				18104A091D64AFCD009226FA /* AppDelegate.m */,
+				18104A0B1D64AFCD009226FA /* ViewController.h */,
+				18104A0C1D64AFCD009226FA /* ViewController.m */,
+				18104A0E1D64AFCD009226FA /* Main.storyboard */,
+				18104A111D64AFCD009226FA /* Assets.xcassets */,
+				18104A131D64AFCD009226FA /* LaunchScreen.storyboard */,
+				18104A161D64AFCD009226FA /* Info.plist */,
+				18104A051D64AFCD009226FA /* Supporting Files */,
+			);
+			path = "UIImageView的frame的设置";
+			sourceTree = "<group>";
+		};
+		18104A051D64AFCD009226FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18104A061D64AFCD009226FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18104A1E1D64AFCD009226FA /* UIImageView的frame的设置Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18104A1F1D64AFCD009226FA /* UIImageView_frame___Tests.m */,
+				18104A211D64AFCD009226FA /* Info.plist */,
+			);
+			path = "UIImageView的frame的设置Tests";
+			sourceTree = "<group>";
+		};
+		18104A291D64AFCD009226FA /* UIImageView的frame的设置UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18104A2A1D64AFCD009226FA /* UIImageView_frame___UITests.m */,
+				18104A2C1D64AFCE009226FA /* Info.plist */,
+			);
+			path = "UIImageView的frame的设置UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18104A011D64AFCD009226FA /* UIImageView的frame的设置 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18104A2F1D64AFCE009226FA /* Build configuration list for PBXNativeTarget "UIImageView的frame的设置" */;
+			buildPhases = (
+				181049FE1D64AFCD009226FA /* Sources */,
+				181049FF1D64AFCD009226FA /* Frameworks */,
+				18104A001D64AFCD009226FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImageView的frame的设置";
+			productName = "UIImageView的frame的设置";
+			productReference = 18104A021D64AFCD009226FA /* UIImageView的frame的设置.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18104A1A1D64AFCD009226FA /* UIImageView的frame的设置Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18104A321D64AFCE009226FA /* Build configuration list for PBXNativeTarget "UIImageView的frame的设置Tests" */;
+			buildPhases = (
+				18104A171D64AFCD009226FA /* Sources */,
+				18104A181D64AFCD009226FA /* Frameworks */,
+				18104A191D64AFCD009226FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18104A1D1D64AFCD009226FA /* PBXTargetDependency */,
+			);
+			name = "UIImageView的frame的设置Tests";
+			productName = "UIImageView的frame的设置Tests";
+			productReference = 18104A1B1D64AFCD009226FA /* UIImageView的frame的设置Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18104A251D64AFCD009226FA /* UIImageView的frame的设置UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18104A351D64AFCE009226FA /* Build configuration list for PBXNativeTarget "UIImageView的frame的设置UITests" */;
+			buildPhases = (
+				18104A221D64AFCD009226FA /* Sources */,
+				18104A231D64AFCD009226FA /* Frameworks */,
+				18104A241D64AFCD009226FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18104A281D64AFCD009226FA /* PBXTargetDependency */,
+			);
+			name = "UIImageView的frame的设置UITests";
+			productName = "UIImageView的frame的设置UITests";
+			productReference = 18104A261D64AFCD009226FA /* UIImageView的frame的设置UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181049FA1D64AFCD009226FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XinHuoYuan;
+				TargetAttributes = {
+					18104A011D64AFCD009226FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+					};
+					18104A1A1D64AFCD009226FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 18104A011D64AFCD009226FA;
+					};
+					18104A251D64AFCD009226FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 18104A011D64AFCD009226FA;
+					};
+				};
+			};
+			buildConfigurationList = 181049FD1D64AFCD009226FA /* Build configuration list for PBXProject "UIImageView的frame的设置" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181049F91D64AFCD009226FA;
+			productRefGroup = 18104A031D64AFCD009226FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18104A011D64AFCD009226FA /* UIImageView的frame的设置 */,
+				18104A1A1D64AFCD009226FA /* UIImageView的frame的设置Tests */,
+				18104A251D64AFCD009226FA /* UIImageView的frame的设置UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18104A001D64AFCD009226FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A151D64AFCD009226FA /* LaunchScreen.storyboard in Resources */,
+				18104A121D64AFCD009226FA /* Assets.xcassets in Resources */,
+				18104A101D64AFCD009226FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A191D64AFCD009226FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A241D64AFCD009226FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181049FE1D64AFCD009226FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A0D1D64AFCD009226FA /* ViewController.m in Sources */,
+				18104A0A1D64AFCD009226FA /* AppDelegate.m in Sources */,
+				18104A071D64AFCD009226FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A171D64AFCD009226FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A201D64AFCD009226FA /* UIImageView_frame___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A221D64AFCD009226FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A2B1D64AFCD009226FA /* UIImageView_frame___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18104A1D1D64AFCD009226FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18104A011D64AFCD009226FA /* UIImageView的frame的设置 */;
+			targetProxy = 18104A1C1D64AFCD009226FA /* PBXContainerItemProxy */;
+		};
+		18104A281D64AFCD009226FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18104A011D64AFCD009226FA /* UIImageView的frame的设置 */;
+			targetProxy = 18104A271D64AFCD009226FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18104A0E1D64AFCD009226FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18104A0F1D64AFCD009226FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18104A131D64AFCD009226FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18104A141D64AFCD009226FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18104A2D1D64AFCE009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18104A2E1D64AFCE009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18104A301D64AFCE009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView的frame的设置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-frame---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18104A311D64AFCE009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView的frame的设置/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-frame---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18104A331D64AFCE009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView的frame的设置Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-frame---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView的frame的设置.app/UIImageView的frame的设置";
+			};
+			name = Debug;
+		};
+		18104A341D64AFCE009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView的frame的设置Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-frame---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView的frame的设置.app/UIImageView的frame的设置";
+			};
+			name = Release;
+		};
+		18104A361D64AFCE009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView的frame的设置UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-frame---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView的frame的设置";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18104A371D64AFCE009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView的frame的设置UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-frame---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView的frame的设置";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181049FD1D64AFCD009226FA /* Build configuration list for PBXProject "UIImageView的frame的设置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104A2D1D64AFCE009226FA /* Debug */,
+				18104A2E1D64AFCE009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18104A2F1D64AFCE009226FA /* Build configuration list for PBXNativeTarget "UIImageView的frame的设置" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104A301D64AFCE009226FA /* Debug */,
+				18104A311D64AFCE009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18104A321D64AFCE009226FA /* Build configuration list for PBXNativeTarget "UIImageView的frame的设置Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104A331D64AFCE009226FA /* Debug */,
+				18104A341D64AFCE009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18104A351D64AFCE009226FA /* Build configuration list for PBXNativeTarget "UIImageView的frame的设置UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104A361D64AFCE009226FA /* Debug */,
+				18104A371D64AFCE009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181049FA1D64AFCD009226FA /* Project object */;
+}

@@ -1,6 +1,6 @@
 //
-//  UIImageView_____UITests.m
-//  UIImageView的基本使用UITests
+//  UIImageView_frame___UITests.m
+//  UIImageView的frame的设置UITests
 //
 //  Created by apple on 16/8/17.
 //  Copyright © 2016年 XinHuoYuan. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface UIImageView_____UITests : XCTestCase
+@interface UIImageView_frame___UITests : XCTestCase
 
 @end
 
-@implementation UIImageView_____UITests
+@implementation UIImageView_frame___UITests
 
 - (void)setUp {
     [super setUp];

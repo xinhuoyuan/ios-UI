@@ -1,6 +1,6 @@
 //
 //  main.m
-//  UIImageView的基本使用
+//  UIImageView的frame的设置
 //
 //  Created by apple on 16/8/17.
 //  Copyright © 2016年 XinHuoYuan. All rights reserved.
