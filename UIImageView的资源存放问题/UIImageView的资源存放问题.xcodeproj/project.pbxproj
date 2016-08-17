@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18104A851D64B661009226FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A841D64B661009226FA /* main.m */; };
+		18104A881D64B661009226FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A871D64B661009226FA /* AppDelegate.m */; };
+		18104A8B1D64B661009226FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A8A1D64B661009226FA /* ViewController.m */; };
+		18104A8E1D64B661009226FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18104A8C1D64B661009226FA /* Main.storyboard */; };
+		18104A901D64B661009226FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18104A8F1D64B661009226FA /* Assets.xcassets */; };
+		18104A931D64B661009226FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18104A911D64B661009226FA /* LaunchScreen.storyboard */; };
+		18104A9E1D64B661009226FA /* UIImageView_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104A9D1D64B661009226FA /* UIImageView_______Tests.m */; };
+		18104AA91D64B661009226FA /* UIImageView_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104AA81D64B661009226FA /* UIImageView_______UITests.m */; };
+		18104AB81D64B68F009226FA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18104AB61D64B68F009226FA /* 1.png */; };
+		18104AB91D64B68F009226FA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18104AB71D64B68F009226FA /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18104A9A1D64B661009226FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18104A781D64B661009226FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18104A7F1D64B661009226FA;
+			remoteInfo = "UIImageView的资源存放问题";
+		};
+		18104AA51D64B661009226FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18104A781D64B661009226FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18104A7F1D64B661009226FA;
+			remoteInfo = "UIImageView的资源存放问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18104A801D64B661009226FA /* UIImageView的资源存放问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImageView的资源存放问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18104A841D64B661009226FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18104A861D64B661009226FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18104A871D64B661009226FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18104A891D64B661009226FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18104A8A1D64B661009226FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18104A8D1D64B661009226FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18104A8F1D64B661009226FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18104A921D64B661009226FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18104A941D64B661009226FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18104A991D64B661009226FA /* UIImageView的资源存放问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView的资源存放问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18104A9D1D64B661009226FA /* UIImageView_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView_______Tests.m"; sourceTree = "<group>"; };
+		18104A9F1D64B661009226FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18104AA41D64B661009226FA /* UIImageView的资源存放问题UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImageView的资源存放问题UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18104AA81D64B661009226FA /* UIImageView_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView_______UITests.m"; sourceTree = "<group>"; };
+		18104AAA1D64B661009226FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18104AB61D64B68F009226FA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		18104AB71D64B68F009226FA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18104A7D1D64B661009226FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A961D64B661009226FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104AA11D64B661009226FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18104A771D64B661009226FA = {
+			isa = PBXGroup;
+			children = (
+				18104A821D64B661009226FA /* UIImageView的资源存放问题 */,
+				18104A9C1D64B661009226FA /* UIImageView的资源存放问题Tests */,
+				18104AA71D64B661009226FA /* UIImageView的资源存放问题UITests */,
+				18104A811D64B661009226FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18104A811D64B661009226FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18104A801D64B661009226FA /* UIImageView的资源存放问题.app */,
+				18104A991D64B661009226FA /* UIImageView的资源存放问题Tests.xctest */,
+				18104AA41D64B661009226FA /* UIImageView的资源存放问题UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18104A821D64B661009226FA /* UIImageView的资源存放问题 */ = {
+			isa = PBXGroup;
+			children = (
+				18104A861D64B661009226FA /* AppDelegate.h */,
+				18104A871D64B661009226FA /* AppDelegate.m */,
+				18104A891D64B661009226FA /* ViewController.h */,
+				18104A8A1D64B661009226FA /* ViewController.m */,
+				18104A8C1D64B661009226FA /* Main.storyboard */,
+				18104A8F1D64B661009226FA /* Assets.xcassets */,
+				18104AB61D64B68F009226FA /* 1.png */,
+				18104AB71D64B68F009226FA /* 2.png */,
+				18104A911D64B661009226FA /* LaunchScreen.storyboard */,
+				18104A941D64B661009226FA /* Info.plist */,
+				18104A831D64B661009226FA /* Supporting Files */,
+			);
+			path = "UIImageView的资源存放问题";
+			sourceTree = "<group>";
+		};
+		18104A831D64B661009226FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18104A841D64B661009226FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18104A9C1D64B661009226FA /* UIImageView的资源存放问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18104A9D1D64B661009226FA /* UIImageView_______Tests.m */,
+				18104A9F1D64B661009226FA /* Info.plist */,
+			);
+			path = "UIImageView的资源存放问题Tests";
+			sourceTree = "<group>";
+		};
+		18104AA71D64B661009226FA /* UIImageView的资源存放问题UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18104AA81D64B661009226FA /* UIImageView_______UITests.m */,
+				18104AAA1D64B661009226FA /* Info.plist */,
+			);
+			path = "UIImageView的资源存放问题UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18104A7F1D64B661009226FA /* UIImageView的资源存放问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18104AAD1D64B661009226FA /* Build configuration list for PBXNativeTarget "UIImageView的资源存放问题" */;
+			buildPhases = (
+				18104A7C1D64B661009226FA /* Sources */,
+				18104A7D1D64B661009226FA /* Frameworks */,
+				18104A7E1D64B661009226FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImageView的资源存放问题";
+			productName = "UIImageView的资源存放问题";
+			productReference = 18104A801D64B661009226FA /* UIImageView的资源存放问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18104A981D64B661009226FA /* UIImageView的资源存放问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18104AB01D64B661009226FA /* Build configuration list for PBXNativeTarget "UIImageView的资源存放问题Tests" */;
+			buildPhases = (
+				18104A951D64B661009226FA /* Sources */,
+				18104A961D64B661009226FA /* Frameworks */,
+				18104A971D64B661009226FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18104A9B1D64B661009226FA /* PBXTargetDependency */,
+			);
+			name = "UIImageView的资源存放问题Tests";
+			productName = "UIImageView的资源存放问题Tests";
+			productReference = 18104A991D64B661009226FA /* UIImageView的资源存放问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18104AA31D64B661009226FA /* UIImageView的资源存放问题UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18104AB31D64B661009226FA /* Build configuration list for PBXNativeTarget "UIImageView的资源存放问题UITests" */;
+			buildPhases = (
+				18104AA01D64B661009226FA /* Sources */,
+				18104AA11D64B661009226FA /* Frameworks */,
+				18104AA21D64B661009226FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18104AA61D64B661009226FA /* PBXTargetDependency */,
+			);
+			name = "UIImageView的资源存放问题UITests";
+			productName = "UIImageView的资源存放问题UITests";
+			productReference = 18104AA41D64B661009226FA /* UIImageView的资源存放问题UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18104A781D64B661009226FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XinHuoYuan;
+				TargetAttributes = {
+					18104A7F1D64B661009226FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+					};
+					18104A981D64B661009226FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 18104A7F1D64B661009226FA;
+					};
+					18104AA31D64B661009226FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 18104A7F1D64B661009226FA;
+					};
+				};
+			};
+			buildConfigurationList = 18104A7B1D64B661009226FA /* Build configuration list for PBXProject "UIImageView的资源存放问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18104A771D64B661009226FA;
+			productRefGroup = 18104A811D64B661009226FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18104A7F1D64B661009226FA /* UIImageView的资源存放问题 */,
+				18104A981D64B661009226FA /* UIImageView的资源存放问题Tests */,
+				18104AA31D64B661009226FA /* UIImageView的资源存放问题UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18104A7E1D64B661009226FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A931D64B661009226FA /* LaunchScreen.storyboard in Resources */,
+				18104AB81D64B68F009226FA /* 1.png in Resources */,
+				18104AB91D64B68F009226FA /* 2.png in Resources */,
+				18104A901D64B661009226FA /* Assets.xcassets in Resources */,
+				18104A8E1D64B661009226FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A971D64B661009226FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104AA21D64B661009226FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18104A7C1D64B661009226FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A8B1D64B661009226FA /* ViewController.m in Sources */,
+				18104A881D64B661009226FA /* AppDelegate.m in Sources */,
+				18104A851D64B661009226FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104A951D64B661009226FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104A9E1D64B661009226FA /* UIImageView_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18104AA01D64B661009226FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18104AA91D64B661009226FA /* UIImageView_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18104A9B1D64B661009226FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18104A7F1D64B661009226FA /* UIImageView的资源存放问题 */;
+			targetProxy = 18104A9A1D64B661009226FA /* PBXContainerItemProxy */;
+		};
+		18104AA61D64B661009226FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18104A7F1D64B661009226FA /* UIImageView的资源存放问题 */;
+			targetProxy = 18104AA51D64B661009226FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18104A8C1D64B661009226FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18104A8D1D64B661009226FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18104A911D64B661009226FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18104A921D64B661009226FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18104AAB1D64B661009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18104AAC1D64B661009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18104AAE1D64B661009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView的资源存放问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18104AAF1D64B661009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImageView的资源存放问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18104AB11D64B661009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView的资源存放问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView的资源存放问题.app/UIImageView的资源存放问题";
+			};
+			name = Debug;
+		};
+		18104AB21D64B661009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIImageView的资源存放问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImageView的资源存放问题.app/UIImageView的资源存放问题";
+			};
+			name = Release;
+		};
+		18104AB41D64B661009226FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView的资源存放问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView的资源存放问题";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18104AB51D64B661009226FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIImageView的资源存放问题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIImageView-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIImageView的资源存放问题";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18104A7B1D64B661009226FA /* Build configuration list for PBXProject "UIImageView的资源存放问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104AAB1D64B661009226FA /* Debug */,
+				18104AAC1D64B661009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18104AAD1D64B661009226FA /* Build configuration list for PBXNativeTarget "UIImageView的资源存放问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104AAE1D64B661009226FA /* Debug */,
+				18104AAF1D64B661009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18104AB01D64B661009226FA /* Build configuration list for PBXNativeTarget "UIImageView的资源存放问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104AB11D64B661009226FA /* Debug */,
+				18104AB21D64B661009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18104AB31D64B661009226FA /* Build configuration list for PBXNativeTarget "UIImageView的资源存放问题UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18104AB41D64B661009226FA /* Debug */,
+				18104AB51D64B661009226FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18104A781D64B661009226FA /* Project object */;
+}
