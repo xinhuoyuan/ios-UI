@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFh-hI-CAp" userLabel="添加">
+                                <rect key="frame" x="20" y="101" width="82" height="75"/>
+                                <animations/>
+                                <state key="normal" image="add"/>
+                                <state key="disabled" image="add_disabled"/>
+                                <state key="highlighted" image="add_highlighted"/>
+                                <connections>
+                                    <action selector="addView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucg-lT-2e3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2Q-Aa-FUr" userLabel="删除">
+                                <rect key="frame" x="273" y="101" width="82" height="75"/>
+                                <animations/>
+                                <state key="normal" image="remove"/>
+                                <state key="disabled" image="remove_disabled"/>
+                                <state key="highlighted" image="remove_highlighted"/>
+                                <connections>
+                                    <action selector="removeView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVn-qE-kRe"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fgw-n3-GtK" userLabel="购物车">
+                                <rect key="frame" x="20" y="204" width="335" height="265"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="购物车满了，不要买买买！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjY-85-DFu">
+                                <rect key="frame" x="91" y="318" width="193" height="31"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.94901967050000002" green="0.75686281919999998" blue="0.92549026010000002" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="DeleteBtn" destination="d2Q-Aa-FUr" id="kKd-Aa-vVX"/>
+                        <outlet property="addBtn" destination="oFh-hI-CAp" id="cks-Dv-Ulh"/>
+                        <outlet property="shopCarView" destination="Fgw-n3-GtK" id="Pwl-CL-Q60"/>
+                        <outlet property="showHUB" destination="hjY-85-DFu" id="Hse-6J-vdc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242.5" y="338.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="add" width="128" height="128"/>
+        <image name="add_disabled" width="128" height="128"/>
+        <image name="add_highlighted" width="128" height="128"/>
+        <image name="remove" width="128" height="128"/>
+        <image name="remove_disabled" width="128" height="128"/>
+        <image name="remove_highlighted" width="128" height="128"/>
+    </resources>
+</document>
