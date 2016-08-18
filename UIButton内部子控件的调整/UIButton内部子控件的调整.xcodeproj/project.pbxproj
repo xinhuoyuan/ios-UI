@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18714F9B1D65A044008E471D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18714F9A1D65A044008E471D /* main.m */; };
+		18714F9E1D65A044008E471D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18714F9D1D65A044008E471D /* AppDelegate.m */; };
+		18714FA11D65A044008E471D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18714FA01D65A044008E471D /* ViewController.m */; };
+		18714FA41D65A044008E471D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18714FA21D65A044008E471D /* Main.storyboard */; };
+		18714FA61D65A044008E471D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18714FA51D65A044008E471D /* Assets.xcassets */; };
+		18714FA91D65A044008E471D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18714FA71D65A044008E471D /* LaunchScreen.storyboard */; };
+		18714FB41D65A045008E471D /* UIButton________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18714FB31D65A045008E471D /* UIButton________Tests.m */; };
+		18714FBF1D65A045008E471D /* UIButton________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18714FBE1D65A045008E471D /* UIButton________UITests.m */; };
+		18714FCE1D65A29E008E471D /* JMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18714FCD1D65A29E008E471D /* JMButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18714FB01D65A045008E471D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18714F8E1D65A044008E471D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18714F951D65A044008E471D;
+			remoteInfo = "UIButton内部子控件的调整";
+		};
+		18714FBB1D65A045008E471D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18714F8E1D65A044008E471D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18714F951D65A044008E471D;
+			remoteInfo = "UIButton内部子控件的调整";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18714F961D65A044008E471D /* UIButton内部子控件的调整.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButton内部子控件的调整.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18714F9A1D65A044008E471D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18714F9C1D65A044008E471D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18714F9D1D65A044008E471D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18714F9F1D65A044008E471D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18714FA01D65A044008E471D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18714FA31D65A044008E471D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18714FA51D65A044008E471D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18714FA81D65A044008E471D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18714FAA1D65A044008E471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18714FAF1D65A045008E471D /* UIButton内部子控件的调整Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIButton内部子控件的调整Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18714FB31D65A045008E471D /* UIButton________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton________Tests.m"; sourceTree = "<group>"; };
+		18714FB51D65A045008E471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18714FBA1D65A045008E471D /* UIButton内部子控件的调整UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIButton内部子控件的调整UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18714FBE1D65A045008E471D /* UIButton________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton________UITests.m"; sourceTree = "<group>"; };
+		18714FC01D65A045008E471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18714FCC1D65A29E008E471D /* JMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMButton.h; sourceTree = "<group>"; };
+		18714FCD1D65A29E008E471D /* JMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18714F931D65A044008E471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18714FAC1D65A045008E471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18714FB71D65A045008E471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18714F8D1D65A044008E471D = {
+			isa = PBXGroup;
+			children = (
+				18714F981D65A044008E471D /* UIButton内部子控件的调整 */,
+				18714FB21D65A045008E471D /* UIButton内部子控件的调整Tests */,
+				18714FBD1D65A045008E471D /* UIButton内部子控件的调整UITests */,
+				18714F971D65A044008E471D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18714F971D65A044008E471D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18714F961D65A044008E471D /* UIButton内部子控件的调整.app */,
+				18714FAF1D65A045008E471D /* UIButton内部子控件的调整Tests.xctest */,
+				18714FBA1D65A045008E471D /* UIButton内部子控件的调整UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18714F981D65A044008E471D /* UIButton内部子控件的调整 */ = {
+			isa = PBXGroup;
+			children = (
+				18714F9C1D65A044008E471D /* AppDelegate.h */,
+				18714F9D1D65A044008E471D /* AppDelegate.m */,
+				18714F9F1D65A044008E471D /* ViewController.h */,
+				18714FA01D65A044008E471D /* ViewController.m */,
+				18714FCC1D65A29E008E471D /* JMButton.h */,
+				18714FCD1D65A29E008E471D /* JMButton.m */,
+				18714FA21D65A044008E471D /* Main.storyboard */,
+				18714FA51D65A044008E471D /* Assets.xcassets */,
+				18714FA71D65A044008E471D /* LaunchScreen.storyboard */,
+				18714FAA1D65A044008E471D /* Info.plist */,
+				18714F991D65A044008E471D /* Supporting Files */,
+			);
+			path = "UIButton内部子控件的调整";
+			sourceTree = "<group>";
+		};
+		18714F991D65A044008E471D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18714F9A1D65A044008E471D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18714FB21D65A045008E471D /* UIButton内部子控件的调整Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18714FB31D65A045008E471D /* UIButton________Tests.m */,
+				18714FB51D65A045008E471D /* Info.plist */,
+			);
+			path = "UIButton内部子控件的调整Tests";
+			sourceTree = "<group>";
+		};
+		18714FBD1D65A045008E471D /* UIButton内部子控件的调整UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18714FBE1D65A045008E471D /* UIButton________UITests.m */,
+				18714FC01D65A045008E471D /* Info.plist */,
+			);
+			path = "UIButton内部子控件的调整UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18714F951D65A044008E471D /* UIButton内部子控件的调整 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18714FC31D65A045008E471D /* Build configuration list for PBXNativeTarget "UIButton内部子控件的调整" */;
+			buildPhases = (
+				18714F921D65A044008E471D /* Sources */,
+				18714F931D65A044008E471D /* Frameworks */,
+				18714F941D65A044008E471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIButton内部子控件的调整";
+			productName = "UIButton内部子控件的调整";
+			productReference = 18714F961D65A044008E471D /* UIButton内部子控件的调整.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18714FAE1D65A045008E471D /* UIButton内部子控件的调整Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18714FC61D65A045008E471D /* Build configuration list for PBXNativeTarget "UIButton内部子控件的调整Tests" */;
+			buildPhases = (
+				18714FAB1D65A045008E471D /* Sources */,
+				18714FAC1D65A045008E471D /* Frameworks */,
+				18714FAD1D65A045008E471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18714FB11D65A045008E471D /* PBXTargetDependency */,
+			);
+			name = "UIButton内部子控件的调整Tests";
+			productName = "UIButton内部子控件的调整Tests";
+			productReference = 18714FAF1D65A045008E471D /* UIButton内部子控件的调整Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18714FB91D65A045008E471D /* UIButton内部子控件的调整UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18714FC91D65A045008E471D /* Build configuration list for PBXNativeTarget "UIButton内部子控件的调整UITests" */;
+			buildPhases = (
+				18714FB61D65A045008E471D /* Sources */,
+				18714FB71D65A045008E471D /* Frameworks */,
+				18714FB81D65A045008E471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18714FBC1D65A045008E471D /* PBXTargetDependency */,
+			);
+			name = "UIButton内部子控件的调整UITests";
+			productName = "UIButton内部子控件的调整UITests";
+			productReference = 18714FBA1D65A045008E471D /* UIButton内部子控件的调整UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18714F8E1D65A044008E471D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XinHuoYuan;
+				TargetAttributes = {
+					18714F951D65A044008E471D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+					};
+					18714FAE1D65A045008E471D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 18714F951D65A044008E471D;
+					};
+					18714FB91D65A045008E471D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 18714F951D65A044008E471D;
+					};
+				};
+			};
+			buildConfigurationList = 18714F911D65A044008E471D /* Build configuration list for PBXProject "UIButton内部子控件的调整" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18714F8D1D65A044008E471D;
+			productRefGroup = 18714F971D65A044008E471D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18714F951D65A044008E471D /* UIButton内部子控件的调整 */,
+				18714FAE1D65A045008E471D /* UIButton内部子控件的调整Tests */,
+				18714FB91D65A045008E471D /* UIButton内部子控件的调整UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18714F941D65A044008E471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18714FA91D65A044008E471D /* LaunchScreen.storyboard in Resources */,
+				18714FA61D65A044008E471D /* Assets.xcassets in Resources */,
+				18714FA41D65A044008E471D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18714FAD1D65A045008E471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18714FB81D65A045008E471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18714F921D65A044008E471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18714FCE1D65A29E008E471D /* JMButton.m in Sources */,
+				18714FA11D65A044008E471D /* ViewController.m in Sources */,
+				18714F9E1D65A044008E471D /* AppDelegate.m in Sources */,
+				18714F9B1D65A044008E471D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18714FAB1D65A045008E471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18714FB41D65A045008E471D /* UIButton________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18714FB61D65A045008E471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18714FBF1D65A045008E471D /* UIButton________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18714FB11D65A045008E471D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18714F951D65A044008E471D /* UIButton内部子控件的调整 */;
+			targetProxy = 18714FB01D65A045008E471D /* PBXContainerItemProxy */;
+		};
+		18714FBC1D65A045008E471D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18714F951D65A044008E471D /* UIButton内部子控件的调整 */;
+			targetProxy = 18714FBB1D65A045008E471D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18714FA21D65A044008E471D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18714FA31D65A044008E471D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18714FA71D65A044008E471D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18714FA81D65A044008E471D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18714FC11D65A045008E471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18714FC21D65A045008E471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18714FC41D65A045008E471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIButton内部子控件的调整/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIButton--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18714FC51D65A045008E471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIButton内部子控件的调整/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIButton--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18714FC71D65A045008E471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIButton内部子控件的调整Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIButton--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButton内部子控件的调整.app/UIButton内部子控件的调整";
+			};
+			name = Debug;
+		};
+		18714FC81D65A045008E471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIButton内部子控件的调整Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIButton--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButton内部子控件的调整.app/UIButton内部子控件的调整";
+			};
+			name = Release;
+		};
+		18714FCA1D65A045008E471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIButton内部子控件的调整UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIButton--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIButton内部子控件的调整";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18714FCB1D65A045008E471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIButton内部子控件的调整UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.UIButton--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIButton内部子控件的调整";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18714F911D65A044008E471D /* Build configuration list for PBXProject "UIButton内部子控件的调整" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18714FC11D65A045008E471D /* Debug */,
+				18714FC21D65A045008E471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18714FC31D65A045008E471D /* Build configuration list for PBXNativeTarget "UIButton内部子控件的调整" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18714FC41D65A045008E471D /* Debug */,
+				18714FC51D65A045008E471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18714FC61D65A045008E471D /* Build configuration list for PBXNativeTarget "UIButton内部子控件的调整Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18714FC71D65A045008E471D /* Debug */,
+				18714FC81D65A045008E471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18714FC91D65A045008E471D /* Build configuration list for PBXNativeTarget "UIButton内部子控件的调整UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18714FCA1D65A045008E471D /* Debug */,
+				18714FCB1D65A045008E471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18714F8E1D65A044008E471D /* Project object */;
+}
