@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="J56-dw-wXz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eKg-kc-lYf">
+            <objects>
+                <tableViewController id="J56-dw-wXz" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="217" sectionHeaderHeight="28" sectionFooterHeight="28" id="9pK-aG-1nq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="statuses" selectionStyle="default" indentationWidth="10" reuseIdentifier="statuses" rowHeight="217" id="BBh-UB-tqj" customClass="JMStatusesCell">
+                                <rect key="frame" x="0.0" y="28" width="600" height="217"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BBh-UB-tqj" id="xQb-BH-pea">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="216"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cvo-9l-ZPL">
+                                            <rect key="frame" x="10" y="10" width="30" height="30"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="jDW-Ai-2Se"/>
+                                                <constraint firstAttribute="width" constant="30" id="lnK-TN-b07"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5C-am-mMO">
+                                            <rect key="frame" x="50" y="17" width="36" height="17"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vip" translatesAutoresizingMaskIntoConstraints="NO" id="aJV-Ty-U9n">
+                                            <rect key="frame" x="96" y="17" width="15" height="15"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="Qf1-Mh-qW9"/>
+                                                <constraint firstAttribute="width" constant="15" id="jQe-Ow-XTY"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdU-ie-zzx">
+                                            <rect key="frame" x="10" y="50" width="580" height="46"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ctL-vC-mP8">
+                                            <rect key="frame" x="10" y="106" width="100" height="100"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="qWT-t9-WfM"/>
+                                                <constraint firstAttribute="width" constant="100" id="vpZ-Yr-Cge"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="aJV-Ty-U9n" firstAttribute="top" secondItem="j5C-am-mMO" secondAttribute="top" id="0vd-LX-8ax"/>
+                                        <constraint firstItem="ctL-vC-mP8" firstAttribute="top" secondItem="vdU-ie-zzx" secondAttribute="bottom" constant="10" id="2xO-QN-z65"/>
+                                        <constraint firstItem="vdU-ie-zzx" firstAttribute="top" secondItem="Cvo-9l-ZPL" secondAttribute="bottom" constant="10" id="6bv-AO-cFp"/>
+                                        <constraint firstAttribute="bottom" secondItem="vdU-ie-zzx" secondAttribute="bottom" constant="10" id="9B1-PK-YpH"/>
+                                        <constraint firstAttribute="trailing" secondItem="vdU-ie-zzx" secondAttribute="trailing" constant="10" id="9gx-ZJ-z6g"/>
+                                        <constraint firstItem="j5C-am-mMO" firstAttribute="centerY" secondItem="Cvo-9l-ZPL" secondAttribute="centerY" id="B8h-Jv-CNy"/>
+                                        <constraint firstItem="Cvo-9l-ZPL" firstAttribute="leading" secondItem="xQb-BH-pea" secondAttribute="leading" constant="10" id="FdB-zg-ui2"/>
+                                        <constraint firstItem="Cvo-9l-ZPL" firstAttribute="top" secondItem="xQb-BH-pea" secondAttribute="top" constant="10" id="Nvq-pd-6Jq"/>
+                                        <constraint firstItem="vdU-ie-zzx" firstAttribute="leading" secondItem="xQb-BH-pea" secondAttribute="leading" constant="10" id="O5E-os-dXj"/>
+                                        <constraint firstItem="j5C-am-mMO" firstAttribute="leading" secondItem="Cvo-9l-ZPL" secondAttribute="trailing" constant="10" id="VOM-Pu-MBh"/>
+                                        <constraint firstItem="j5C-am-mMO" firstAttribute="top" secondItem="Cvo-9l-ZPL" secondAttribute="top" id="Zfx-V4-xrs"/>
+                                        <constraint firstItem="ctL-vC-mP8" firstAttribute="top" secondItem="vdU-ie-zzx" secondAttribute="bottom" constant="10" id="cY5-ez-gC3"/>
+                                        <constraint firstAttribute="bottom" secondItem="ctL-vC-mP8" secondAttribute="bottom" constant="10" id="dIn-6s-lHK"/>
+                                        <constraint firstItem="ctL-vC-mP8" firstAttribute="leading" secondItem="vdU-ie-zzx" secondAttribute="leading" id="eSY-il-hOj"/>
+                                        <constraint firstItem="aJV-Ty-U9n" firstAttribute="leading" secondItem="j5C-am-mMO" secondAttribute="trailing" constant="10" id="iZ8-aw-aOj"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="9B1-PK-YpH"/>
+                                            <exclude reference="Zfx-V4-xrs"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="buttomShowImg" destination="dIn-6s-lHK" id="eqt-6M-t75"/>
+                                    <outlet property="iconImg" destination="Cvo-9l-ZPL" id="zjE-Au-Qnu"/>
+                                    <outlet property="nameLab" destination="j5C-am-mMO" id="jvA-D9-nhZ"/>
+                                    <outlet property="showImg" destination="ctL-vC-mP8" id="nxp-zD-1Qm"/>
+                                    <outlet property="showImgHeight" destination="qWT-t9-WfM" id="XEh-AT-SEH"/>
+                                    <outlet property="textLab" destination="vdU-ie-zzx" id="Cco-VJ-fdu"/>
+                                    <outlet property="vipImg" destination="aJV-Ty-U9n" id="A1c-9e-os3"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="J56-dw-wXz" id="OBV-xf-cE6"/>
+                            <outlet property="delegate" destination="J56-dw-wXz" id="5mN-0L-wxP"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ypy-af-uZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="267" y="42"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vip" width="14" height="14"/>
+    </resources>
+</document>
