@@ -1,0 +1,26 @@
+//
+//  项目当中常见的文件.pch
+//  项目当中常见的文件
+//
+//  Created by apple on 16/9/1.
+//  Copyright © 2016年 XinHuoYuan. All rights reserved.
+//
+
+//原理:工程在编译过程当中，把PCH文件当中的所有内容导入到所有文件当中
+
+#ifdef  __OBJC__
+
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#import "UIView+frame.h"
+
+#ifdef DEBUG
+
+#define JMLOG(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define JMLOG(...)
+
+#endif
+
+#endif
