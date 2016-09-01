@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="x7f-Wt-mNJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="r1s-JQ-zV1">
+            <objects>
+                <tableViewController id="x7f-Wt-mNJ" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="215" sectionHeaderHeight="28" sectionFooterHeight="28" id="7NZ-6I-n2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="215" id="bcD-JI-gNp" customClass="JMStatusesCell">
+                                <rect key="frame" x="0.0" y="28" width="600" height="215"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bcD-JI-gNp" id="Ksm-JC-ebk">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="214"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HQ3-bl-310">
+                                            <rect key="frame" x="10" y="10" width="30" height="30"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="gw9-RL-co9"/>
+                                                <constraint firstAttribute="height" constant="30" id="xhr-5G-pbH"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8t-te-OMr">
+                                            <rect key="frame" x="50" y="14" width="42" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vip" translatesAutoresizingMaskIntoConstraints="NO" id="VvB-JL-dIz">
+                                            <rect key="frame" x="102" y="17" width="15" height="15"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="LVc-v8-gkq"/>
+                                                <constraint firstAttribute="width" constant="15" id="fcJ-1h-RLr"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qkw-sk-VSz">
+                                            <rect key="frame" x="10" y="50" width="580" height="44"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eGq-YV-jps">
+                                            <rect key="frame" x="10" y="104" width="100" height="100"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="4Fd-VH-7dl"/>
+                                                <constraint firstAttribute="height" constant="100" id="hEe-Nr-5xU"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="eGq-YV-jps" firstAttribute="leading" secondItem="Qkw-sk-VSz" secondAttribute="leading" id="0KF-uK-XK4"/>
+                                        <constraint firstItem="eGq-YV-jps" firstAttribute="top" secondItem="Qkw-sk-VSz" secondAttribute="bottom" constant="10" id="99o-5L-vxD"/>
+                                        <constraint firstItem="VvB-JL-dIz" firstAttribute="centerY" secondItem="b8t-te-OMr" secondAttribute="centerY" id="LsX-CJ-oeb"/>
+                                        <constraint firstItem="HQ3-bl-310" firstAttribute="leading" secondItem="Ksm-JC-ebk" secondAttribute="leading" constant="10" id="MDD-au-luv"/>
+                                        <constraint firstItem="Qkw-sk-VSz" firstAttribute="top" secondItem="HQ3-bl-310" secondAttribute="bottom" constant="10" id="NpX-dc-TJw"/>
+                                        <constraint firstItem="b8t-te-OMr" firstAttribute="centerY" secondItem="HQ3-bl-310" secondAttribute="centerY" id="V1c-0e-35a"/>
+                                        <constraint firstAttribute="bottom" secondItem="eGq-YV-jps" secondAttribute="bottom" constant="10" id="XDK-kh-Vwb"/>
+                                        <constraint firstItem="HQ3-bl-310" firstAttribute="top" secondItem="Ksm-JC-ebk" secondAttribute="top" constant="10" id="gZl-q5-ybo"/>
+                                        <constraint firstItem="Qkw-sk-VSz" firstAttribute="leading" secondItem="HQ3-bl-310" secondAttribute="leading" id="iYP-Zg-f9n"/>
+                                        <constraint firstItem="eGq-YV-jps" firstAttribute="top" secondItem="Qkw-sk-VSz" secondAttribute="bottom" constant="10" id="ip2-Pu-T61"/>
+                                        <constraint firstItem="b8t-te-OMr" firstAttribute="leading" secondItem="HQ3-bl-310" secondAttribute="trailing" constant="10" id="qic-qb-ysq"/>
+                                        <constraint firstAttribute="trailing" secondItem="Qkw-sk-VSz" secondAttribute="trailing" constant="10" id="vN3-BJ-YIK"/>
+                                        <constraint firstItem="VvB-JL-dIz" firstAttribute="leading" secondItem="b8t-te-OMr" secondAttribute="trailing" constant="10" id="vyZ-3t-puD"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="NameLab" destination="b8t-te-OMr" id="F7Z-jM-dfJ"/>
+                                    <outlet property="iconImg" destination="HQ3-bl-310" id="3Yh-1t-qWV"/>
+                                    <outlet property="showImg" destination="eGq-YV-jps" id="wsT-Xi-GJy"/>
+                                    <outlet property="textLab" destination="Qkw-sk-VSz" id="ROG-J6-KW5"/>
+                                    <outlet property="vipImg" destination="VvB-JL-dIz" id="cpG-iv-Vp7"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="x7f-Wt-mNJ" id="tMA-hu-TRv"/>
+                            <outlet property="delegate" destination="x7f-Wt-mNJ" id="k7B-IN-5zD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="maI-ZP-egj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="355" y="641"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vip" width="14" height="14"/>
+    </resources>
+</document>
