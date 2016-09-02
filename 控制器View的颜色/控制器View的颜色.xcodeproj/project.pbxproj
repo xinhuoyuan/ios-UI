@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184DEFEB1D792E38001E8685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DEFEA1D792E38001E8685 /* main.m */; };
+		184DEFEE1D792E38001E8685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DEFED1D792E38001E8685 /* AppDelegate.m */; };
+		184DEFF41D792E39001E8685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DEFF21D792E39001E8685 /* Main.storyboard */; };
+		184DEFF61D792E39001E8685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DEFF51D792E39001E8685 /* Assets.xcassets */; };
+		184DEFF91D792E39001E8685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DEFF71D792E39001E8685 /* LaunchScreen.storyboard */; };
+		184DF0041D792E39001E8685 /* ___View___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF0031D792E39001E8685 /* ___View___Tests.m */; };
+		184DF00F1D792E39001E8685 /* ___View___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF00E1D792E39001E8685 /* ___View___UITests.m */; };
+		184DF01E1D792E66001E8685 /* JMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DF01D1D792E66001E8685 /* JMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184DF0001D792E39001E8685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184DEFDE1D792E38001E8685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184DEFE51D792E38001E8685;
+			remoteInfo = "控制器View的颜色";
+		};
+		184DF00B1D792E39001E8685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184DEFDE1D792E38001E8685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184DEFE51D792E38001E8685;
+			remoteInfo = "控制器View的颜色";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184DEFE61D792E38001E8685 /* 控制器View的颜色.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "控制器View的颜色.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DEFEA1D792E38001E8685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184DEFEC1D792E38001E8685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184DEFED1D792E38001E8685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184DEFF31D792E39001E8685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184DEFF51D792E39001E8685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184DEFF81D792E39001E8685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184DEFFA1D792E39001E8685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184DEFFF1D792E39001E8685 /* 控制器View的颜色Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制器View的颜色Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DF0031D792E39001E8685 /* ___View___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___View___Tests.m"; sourceTree = "<group>"; };
+		184DF0051D792E39001E8685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184DF00A1D792E39001E8685 /* 控制器View的颜色UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制器View的颜色UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DF00E1D792E39001E8685 /* ___View___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___View___UITests.m"; sourceTree = "<group>"; };
+		184DF0101D792E39001E8685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184DF01C1D792E66001E8685 /* JMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMViewController.h; sourceTree = "<group>"; };
+		184DF01D1D792E66001E8685 /* JMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184DEFE31D792E38001E8685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DEFFC1D792E39001E8685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DF0071D792E39001E8685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184DEFDD1D792E38001E8685 = {
+			isa = PBXGroup;
+			children = (
+				184DEFE81D792E38001E8685 /* 控制器View的颜色 */,
+				184DF0021D792E39001E8685 /* 控制器View的颜色Tests */,
+				184DF00D1D792E39001E8685 /* 控制器View的颜色UITests */,
+				184DEFE71D792E38001E8685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184DEFE71D792E38001E8685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184DEFE61D792E38001E8685 /* 控制器View的颜色.app */,
+				184DEFFF1D792E39001E8685 /* 控制器View的颜色Tests.xctest */,
+				184DF00A1D792E39001E8685 /* 控制器View的颜色UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184DEFE81D792E38001E8685 /* 控制器View的颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				184DEFEC1D792E38001E8685 /* AppDelegate.h */,
+				184DEFED1D792E38001E8685 /* AppDelegate.m */,
+				184DF01C1D792E66001E8685 /* JMViewController.h */,
+				184DF01D1D792E66001E8685 /* JMViewController.m */,
+				184DEFF21D792E39001E8685 /* Main.storyboard */,
+				184DEFF51D792E39001E8685 /* Assets.xcassets */,
+				184DEFF71D792E39001E8685 /* LaunchScreen.storyboard */,
+				184DEFFA1D792E39001E8685 /* Info.plist */,
+				184DEFE91D792E38001E8685 /* Supporting Files */,
+			);
+			path = "控制器View的颜色";
+			sourceTree = "<group>";
+		};
+		184DEFE91D792E38001E8685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184DEFEA1D792E38001E8685 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184DF0021D792E39001E8685 /* 控制器View的颜色Tests */ = {
+			isa = PBXGroup;
+			children = (
+				184DF0031D792E39001E8685 /* ___View___Tests.m */,
+				184DF0051D792E39001E8685 /* Info.plist */,
+			);
+			path = "控制器View的颜色Tests";
+			sourceTree = "<group>";
+		};
+		184DF00D1D792E39001E8685 /* 控制器View的颜色UITests */ = {
+			isa = PBXGroup;
+			children = (
+				184DF00E1D792E39001E8685 /* ___View___UITests.m */,
+				184DF0101D792E39001E8685 /* Info.plist */,
+			);
+			path = "控制器View的颜色UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184DEFE51D792E38001E8685 /* 控制器View的颜色 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DF0131D792E39001E8685 /* Build configuration list for PBXNativeTarget "控制器View的颜色" */;
+			buildPhases = (
+				184DEFE21D792E38001E8685 /* Sources */,
+				184DEFE31D792E38001E8685 /* Frameworks */,
+				184DEFE41D792E38001E8685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "控制器View的颜色";
+			productName = "控制器View的颜色";
+			productReference = 184DEFE61D792E38001E8685 /* 控制器View的颜色.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184DEFFE1D792E39001E8685 /* 控制器View的颜色Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DF0161D792E39001E8685 /* Build configuration list for PBXNativeTarget "控制器View的颜色Tests" */;
+			buildPhases = (
+				184DEFFB1D792E39001E8685 /* Sources */,
+				184DEFFC1D792E39001E8685 /* Frameworks */,
+				184DEFFD1D792E39001E8685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184DF0011D792E39001E8685 /* PBXTargetDependency */,
+			);
+			name = "控制器View的颜色Tests";
+			productName = "控制器View的颜色Tests";
+			productReference = 184DEFFF1D792E39001E8685 /* 控制器View的颜色Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184DF0091D792E39001E8685 /* 控制器View的颜色UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DF0191D792E39001E8685 /* Build configuration list for PBXNativeTarget "控制器View的颜色UITests" */;
+			buildPhases = (
+				184DF0061D792E39001E8685 /* Sources */,
+				184DF0071D792E39001E8685 /* Frameworks */,
+				184DF0081D792E39001E8685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184DF00C1D792E39001E8685 /* PBXTargetDependency */,
+			);
+			name = "控制器View的颜色UITests";
+			productName = "控制器View的颜色UITests";
+			productReference = 184DF00A1D792E39001E8685 /* 控制器View的颜色UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184DEFDE1D792E38001E8685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XinHuoYuan;
+				TargetAttributes = {
+					184DEFE51D792E38001E8685 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+					};
+					184DEFFE1D792E39001E8685 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 184DEFE51D792E38001E8685;
+					};
+					184DF0091D792E39001E8685 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8C7AK9KPMW;
+						TestTargetID = 184DEFE51D792E38001E8685;
+					};
+				};
+			};
+			buildConfigurationList = 184DEFE11D792E38001E8685 /* Build configuration list for PBXProject "控制器View的颜色" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184DEFDD1D792E38001E8685;
+			productRefGroup = 184DEFE71D792E38001E8685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184DEFE51D792E38001E8685 /* 控制器View的颜色 */,
+				184DEFFE1D792E39001E8685 /* 控制器View的颜色Tests */,
+				184DF0091D792E39001E8685 /* 控制器View的颜色UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184DEFE41D792E38001E8685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DEFF91D792E39001E8685 /* LaunchScreen.storyboard in Resources */,
+				184DEFF61D792E39001E8685 /* Assets.xcassets in Resources */,
+				184DEFF41D792E39001E8685 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DEFFD1D792E39001E8685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DF0081D792E39001E8685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184DEFE21D792E38001E8685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DEFEE1D792E38001E8685 /* AppDelegate.m in Sources */,
+				184DF01E1D792E66001E8685 /* JMViewController.m in Sources */,
+				184DEFEB1D792E38001E8685 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DEFFB1D792E39001E8685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DF0041D792E39001E8685 /* ___View___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DF0061D792E39001E8685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DF00F1D792E39001E8685 /* ___View___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184DF0011D792E39001E8685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184DEFE51D792E38001E8685 /* 控制器View的颜色 */;
+			targetProxy = 184DF0001D792E39001E8685 /* PBXContainerItemProxy */;
+		};
+		184DF00C1D792E39001E8685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184DEFE51D792E38001E8685 /* 控制器View的颜色 */;
+			targetProxy = 184DF00B1D792E39001E8685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184DEFF21D792E39001E8685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DEFF31D792E39001E8685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184DEFF71D792E39001E8685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DEFF81D792E39001E8685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184DF0111D792E39001E8685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184DF0121D792E39001E8685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184DF0141D792E39001E8685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "控制器View的颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.---View---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184DF0151D792E39001E8685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "控制器View的颜色/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.---View---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184DF0171D792E39001E8685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "控制器View的颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.---View---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/控制器View的颜色.app/控制器View的颜色";
+			};
+			name = Debug;
+		};
+		184DF0181D792E39001E8685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "控制器View的颜色Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.---View---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/控制器View的颜色.app/控制器View的颜色";
+			};
+			name = Release;
+		};
+		184DF01A1D792E39001E8685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "控制器View的颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.---View---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "控制器View的颜色";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		184DF01B1D792E39001E8685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "控制器View的颜色UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.XinHuoYuan.---View---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "控制器View的颜色";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184DEFE11D792E38001E8685 /* Build configuration list for PBXProject "控制器View的颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DF0111D792E39001E8685 /* Debug */,
+				184DF0121D792E39001E8685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184DF0131D792E39001E8685 /* Build configuration list for PBXNativeTarget "控制器View的颜色" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DF0141D792E39001E8685 /* Debug */,
+				184DF0151D792E39001E8685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		184DF0161D792E39001E8685 /* Build configuration list for PBXNativeTarget "控制器View的颜色Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DF0171D792E39001E8685 /* Debug */,
+				184DF0181D792E39001E8685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		184DF0191D792E39001E8685 /* Build configuration list for PBXNativeTarget "控制器View的颜色UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DF01A1D792E39001E8685 /* Debug */,
+				184DF01B1D792E39001E8685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184DEFDE1D792E38001E8685 /* Project object */;
+}
